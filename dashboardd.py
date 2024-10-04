@@ -17,8 +17,8 @@ gdown.download(file_url, 'order_seller_geo_datasets.csv', quiet=False)
 
 order_seller_geo_df = pd.read_csv('order_reviews_products_data.csv')
 
-orders_dataset = pd.read_csv('../Data/orders_dataset.csv')
-order_items_dataset = pd.read_csv('../Data/order_items_dataset.csv')
+orders_dataset = pd.read_csv('orders_dataset.csv')
+order_items_dataset = pd.read_csv('order_items_dataset.csv')
 
 
 st.title("E-COMMERCE DASHBOARD")
