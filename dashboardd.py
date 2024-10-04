@@ -15,7 +15,7 @@ file_url = 'https://drive.google.com/uc?id=1wBmTX1IwvS1DGTJjr0UKqmfNu28sPrxu'  #
 
 gdown.download(file_url, 'order_seller_geo_datasets.csv', quiet=False)
 
-order_seller_geo_df = pd.read_csv('order_reviews_products_data.csv')
+order_seller_geo_df = pd.read_csv('order_seller_geo_datasets.csv')
 
 orders_dataset = pd.read_csv('orders_dataset.csv')
 order_items_dataset = pd.read_csv('order_items_dataset.csv')
